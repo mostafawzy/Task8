@@ -1,0 +1,107 @@
+.Action {
+  background-color: #ff4d4d; /* Red */
+  color: white; /* White text */
+}
+
+.Adventure {
+  background-color: #ff8c00; /* Darker Orange */
+  color: white;
+}
+
+.Animation {
+  background-color: #ffcc00; /* Yellow */
+  color: black; /* Dark text */
+}
+
+.Comedy {
+  background-color: #ffeb3b; /* Brighter Yellow */
+  color: black; /* Dark text */
+}
+
+.Crime {
+  background-color: #b22222; /* Firebrick */
+  color: white;
+}
+
+.Documentary {
+  background-color: #4682b4; /* Steel Blue */
+  color: white;
+}
+
+.Drama {
+  background-color: #9370db; /* Medium Purple */
+  color: white;
+}
+
+.Family {
+  background-color: #3cb371; /* Medium Sea Green */
+  color: white;
+}
+
+.Fantasy {
+  background-color: #dda0dd; /* Plum */
+  color: black; /* Dark text */
+}
+
+.History {
+  background-color: #cd853f; /* Peru */
+  color: white;
+}
+
+.Horror {
+  background-color: #8b0000; /* Dark Red */
+  color: white;
+}
+
+.Music {
+  background-color: #ff69b4; /* Hot Pink */
+  color: white;
+}
+
+.Mystery {
+  background-color: #4b0082; /* Indigo */
+  color: white;
+}
+
+.Romance {
+  background-color: #ff1493; /* Deep Pink */
+  color: white;
+}
+
+.ScienceFiction {
+  background-color: #20b2aa; /* Light Sea Green */
+  color: white;
+}
+
+.TVMovie {
+  background-color: #00ced1; /* Dark Turquoise */
+  color: white;
+}
+
+
+.Talk{
+  background-color: #eceef0; /* Slate Gray */
+  color: rgb(204, 130, 130);
+}
+.Soap{
+  background-color: #4b0082; /* Indigo */
+  color: white;
+}
+.News{
+  background-color: #b3cde8; /* Slate Gray */
+  color: rgb(117, 79, 79);
+}
+.Thriller {
+  background-color: #cfdae4; /* Slate Gray */
+  color: rgb(178, 120, 120);
+}
+
+.War {
+  background-color: #e6edf5; /* Light Slate Gray */
+  color: rgb(191, 218, 250);
+}
+
+.Western {
+  background-color: #deb887; /* Burly Wood */
+  color: black; /* Dark text */
+}

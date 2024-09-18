@@ -1,0 +1,94 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  max-width: 400px; 
+  margin: 0 auto;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Hover effect: slightly lift the card */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.card-img-top {
+  height: 400px;
+  object-fit: cover; /* Keep image aspect ratio */
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.card-body {
+  padding: 1rem;
+  text-align: center;
+  background-color: #f9f9f9; /* Light background for the card body */
+  height: 300px; /* Fixed height for the body to ensure uniform size */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.overview-scroll {
+  max-height: 500px; /* Limit the height for the overview text */
+  overflow-y: auto; /* Add scroll for long text */
+}
+
+.btn-shop {
+  background-color: #5499c7; /* Custom button color */
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-shop:hover {
+  background-color: #b5d3e7; /* Darker shade on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-5 {
+  margin-bottom: 3rem;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+  color: inherit; /* Inherit text color */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .row {
+      flex-direction: column;
+  }
+
+  .col {
+      max-width: 100%;
+  }
+}

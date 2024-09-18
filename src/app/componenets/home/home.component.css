@@ -1,0 +1,28 @@
+body {
+    background-color: #eaf2f8;
+}
+.hero-section {
+    background-color: #5499c7; /* Bootstrap success color */
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+.product-section {
+    margin: 40px 0;
+}
+.product-card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+.product-card:hover {
+    transform: scale(1.05);
+}
+.btn-shop {
+    background-color: #5499c7;
+    color: white;
+    border: none;
+}
+
+.link{
+    margin-left: 100;
+}

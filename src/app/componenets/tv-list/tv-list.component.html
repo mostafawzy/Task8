@@ -1,0 +1,47 @@
+
+<div class="row row-cols-3 row-cols-md-2 row-cols-lg-3 g-4">
+
+@for (item of tvList; track $index) {
+    <a [routerLink]="['/details', item.id]" class="text-decoration-none">
+        <div class="col">
+            <div class="card product-card">
+                <img [src]="'https://image.tmdb.org/t/p/w500' + item.poster_path"
+                     class="card-img-top" alt="Product 1">
+                <div class="card-body text-center">
+                    <h5 class="card-title">{{item.original_name }}</h5>
+                    <div class="card-text overview-scroll">{{item.overview}}</div>
+                    <a href="#" class="btn btn-shop">Details</a>
+                </div>
+            </div>
+        </div>
+    </a>
+  
+}@empty {
+    <h1>No Movies Found!</h1>
+}
+</div>
+
+<!-- 
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @for (item of tvList; track $index) {
+    <a [routerLink]="['/details', item.id]">
+      <div class="col">
+        <div class="card h-100">
+          <img
+            [src]="'https://image.tmdb.org/t/p/w500' + item.poster_path"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">{{item.original_name }}</h5>
+            <p class="card-text">{{item.overview}}</p>
+            <a href="#" class="btn btn-shop">Watch Now</a>
+          </div>
+        </div>
+      </div>
+    </a>
+    }@empty {
+    <h1>No Movies Founded!</h1>
+    }
+  </div>
+   -->
